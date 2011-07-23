@@ -95,13 +95,13 @@ void loop()
           }
           
           if(leitura.startsWith("GET /?out=temp")){
-            client.print("{device:[{\"estado\" : \"ok\" , \"value\" : \"");
+            client.print("{\"device\":[{\"estado\" : \"ok\" , \"value\" : \"");
             client.print(recuperaResultadoCelsius());
             client.print("\"}]}");
           }
          
           if(leitura.startsWith("GET /?out=light")){
-            client.print("{device:[{\"estado\" : \"ok\" , \"value\" : \"");
+            client.print("{\"device\":[{\"estado\" : \"ok\" , \"value\" : \"");
             client.print(recuperaEstadoLuz());
             client.print("\"}]}");
           }  
