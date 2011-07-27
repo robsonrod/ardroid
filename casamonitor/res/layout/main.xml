@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/menu"
+		android:gravity="center" />
+
+	<TableLayout android:paddingTop="5dip"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout1"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		android:stretchColumns="2">
+
+		<TableRow>
+			<ImageButton android:src="@drawable/ac_adapter"
+				android:id="@+id/imgConsumoEletricidade" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></ImageButton>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Consumo de Eletricidade"
+				android:padding="20dip" />
+		</TableRow>
+
+		<TableRow>
+			<ImageButton android:src="@drawable/dialog_information"
+				android:id="@+id/imgLuminosidade" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></ImageButton>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Estado da Luz"
+				android:padding="20dip" />
+		</TableRow>
+
+		<TableRow>
+			<ImageButton android:src="@drawable/weather_clear"
+				android:id="@+id/imgTemperatura" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></ImageButton>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Temperatura"
+				android:padding="20dip" />
+		</TableRow>
+
+	</TableLayout>
+</LinearLayout>

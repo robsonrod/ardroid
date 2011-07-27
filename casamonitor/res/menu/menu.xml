@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/configarduino"
+		  android:icon="@drawable/system_run" 
+		  android:title="@string/app_configuracao_arduino"/>
+	
+	<item android:id="@+id/sincarduino" 
+		  android:icon="@drawable/refresh"
+		  android:title="@string/app_msg_sinc"/>
+	
+	<item android:id="@+id/ajuda" 
+		  android:icon="@drawable/help_faq"
+		  android:title="@string/app_msg_ajuda"/>
+</menu>

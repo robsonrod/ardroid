@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CasaMonitorActivity!</string>
+    <string name="menu">Opções</string>
+    <string name="app_name">CasaMonitor</string>
+    <string name="app_titulo_consumo">Consumo</string>
+    <string name="app_titulo_luminosidade">Luminosidade</string>
+    <string name="app_titulo_temperatura">Temperatura</string>
+    <string name="app_titulo_arduino">Configurar Arduino</string>
+    <string name="app_configuracao_arduino">Configuração</string>
+    <string name="app_msg_sinc">Sincronizar</string>
+    
+    <string name="app_msg_ajuda">Ajuda</string>
+    <string name="app_txt_ajuda">Ajuda do sistema de monitoramento de casas usando arduino e android</string>
+    
+    <string name="app_luz_ligado">LIGADO</string>
+    <string name="app_luz_desligado">DESLIGADO</string>
+</resources>
